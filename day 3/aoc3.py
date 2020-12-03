@@ -1,24 +1,18 @@
 import sys
 from math import prod
 
-def path(pattern, slope):
-    dx, dy = slope
-    x, y = 0, 0
-
-    while y < len(pattern):
-        yield pattern[y][x % (len(pattern[0]) - 1)]
-        x += dx
-        y += dy
-
-
 def main():
     with open(sys.argv[1]) as f:
         lines = [l for l in f]
-
-        p1 = sum(1 for x in path(lines, (3, 1)) if x == '#')
-
         slopes = [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]
-        p2 = prod(sum(1 for x in path(lines, s) if x == '#') for s in slopes)
+
+        trees = []
+        for dx, dy in slopes:
+            path = [lines[i * dy][(i * dx) % (len(lines[i]) - 1)] for i in range(len(lines) // dy)]
+            trees += [path.count('#')]
+
+        p1 = trees[1]
+        p2 = prod(trees)
 
     print(p1)
     print(p2)
