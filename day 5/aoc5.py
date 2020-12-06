@@ -7,7 +7,6 @@ def main():
         p1 = max(ids)
         p2 = max({*range(max(ids))} - ids)
 
-
     print(p1)
     print(p2)
 
