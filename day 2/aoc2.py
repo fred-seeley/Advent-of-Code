@@ -5,7 +5,7 @@ Entry = namedtuple('Entry', 'lo hi char password')
 
 def main():
     with open(sys.argv[1]) as f:
-        lines = [re.fullmatch(r'(\d+)-(\d+) (.): (.+)', line.strip()).groups() for line in f]
+        lines = [re.fullmatch(r'(\d+)-(\d+) (.): (.+)', l.strip()).groups() for l in f]
         entries = [Entry(int(lo), int(hi), char, password) for lo, hi, char, password in lines]
 
         p1 = sum([e.lo <= e.password.count(e.char) <= e.hi for e in entries])

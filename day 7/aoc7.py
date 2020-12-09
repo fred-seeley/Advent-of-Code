@@ -8,8 +8,8 @@ def main():
     with open(sys.argv[1]) as f:
         DG = nx.DiGraph()
 
-        for line in f:
-            source, targets = line.split(' bags contain ')
+        for l in f:
+            source, targets = l.split(' bags contain ')
             DG.add_weighted_edges_from([(source, target, int(w)) for w, target in re.findall(r'(\d+) (\w+ \w+)', targets)])
 
         p1 = len(nx.ancestors(DG, 'shiny gold'))
