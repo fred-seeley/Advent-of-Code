@@ -10,3 +10,4 @@
 | [Day 6: Custom Customs](day%206) | ⭐ | ⭐ |
 | [Day 7: Handy Haversacks](day%207) | ⭐ | ⭐ |
 | [Day 8: Handheld Halting](day%208) | ⭐ | ⭐ |
+| [Day 9: Encoding Error](day%209) | ⭐ | ⭐ |
