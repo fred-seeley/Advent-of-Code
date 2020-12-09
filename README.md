@@ -8,3 +8,5 @@
 | [Day 4: Passport Processing](day%204) | ⭐ | ⭐ |
 | [Day 5: Binary Boarding](day%205) | ⭐ | ⭐ |
 | [Day 6: Custom Customs](day%206) | ⭐ | ⭐ |
+| [Day 7: Handy Haversacks](day%207) | ⭐ | ⭐ |
+| [Day 8: Handheld Halting](day%208) | ⭐ | ⭐ |
