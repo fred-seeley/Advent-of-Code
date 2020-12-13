@@ -12,3 +12,5 @@
 | [Day 8: Handheld Halting](day%208) | ⭐ | ⭐ |
 | [Day 9: Encoding Error](day%209) | ⭐ | ⭐ |
 | [Day 10: Adapter Array](day%2010) | ⭐ | ⭐ |
+| [Day 11: Seating System](day%2011) |  |  |
+| [Day 12: Rain Risk](day%2012) | ⭐ | ⭐ |
