@@ -17,3 +17,5 @@
 | [Day 13: Shuttle Search](day13) | ⭐ | ⭐ |
 | [Day 14: Docking Data](day14) | ⭐ |  |
 | [Day 15: Rambunctious Recitation](day15) | ⭐ | ⭐ |
+|   |   |   |
+| [Day 25: Combo Breaker](day25) | ⭐ | n/a |
