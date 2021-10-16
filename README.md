@@ -18,4 +18,5 @@
 | [Day 14: Docking Data](day14) | ⭐ |  |
 | [Day 15: Rambunctious Recitation](day15) | ⭐ | ⭐ |
 |   |   |   |
+| [Day 24: Lobby Layout](day24) | ⭐ | ⭐ |
 | [Day 25: Combo Breaker](day25) | ⭐ | n/a |
